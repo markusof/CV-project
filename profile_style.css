@@ -1,0 +1,68 @@
+body {
+    background-color: beige;
+}
+
+section {
+    border: thick double lightgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+.profilePicture {
+    display: flex;
+    justify-content: center;
+}
+
+.profileLinks {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr) 0fr;
+    text-align: center;
+    padding: 1em;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.work{
+    border-radius: 8px;
+    border: none;
+    background-color: lightgray;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column; 
+    text-align: left;
+    padding: 0.5em;
+    font-size: 20px;
+}
+
+li{
+    margin: 0.25em 0;
+}
+.button {
+    border-radius: 8px;
+    background-color: lightgray;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+/*.infoText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}*/
